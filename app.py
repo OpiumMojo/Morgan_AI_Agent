@@ -12,8 +12,7 @@ You are the Morgan State University CS AI Agent.
 Support students with advising (COSC courses) and learning computer science concepts.
 """
 
-model = genai.GenerativeModel("gemini-1.5-flash", system_instruction=instructions)
-
+model = genai.GenerativeModel("gemini-3-flash-preview")
 # Sidebar for Project Info
 with st.sidebar:
     st.title("MSU Project Info")
